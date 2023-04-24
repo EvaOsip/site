@@ -1,32 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <meta charset="UTF-8">
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
     <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
-        </div>
+<!-- Начало: Данный блок удалять нельзя -->
+<div class="maketforfigma">
+    <a href="https://t.me/s/FigmaToHTML" target="_blank">
+        <img src="img/logo.png">
+    </a>
+    <div>
+        <p>
+            Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+                href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+        </p>
+        <p>
+            При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+            пользователь получил оплату за верстку этого макета.
+        </p>
     </div>
-    <!-- Конец -->
+</div>
+<!-- Конец -->
 
-    <div class="main">
-        В данном блоке размещается верстка
+<div class="main">
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <div class="logo">
+                    <img src="img/logo1.png" alt="Logo">
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="#">Sounds</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Skills</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Plugins</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Studio</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Community</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Blog</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Pricing</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-buttons">
+                <button class="button login" type="button">Login</button>
+                <button class="button signup" type="button">Sign up</button>
+            </div>
+
+        </div>
+    </header>
+    <section class="promotion">
+        <div class="container">
+            <div class="promotion-container">
+                <div class="promotion-text">
+                    🤘 Get free Sounds when you start a trial & 4 months off a Sounds+ annual plan.
+                </div>
+                <a href="#" class="promotion-link">
+                    Click here
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="main-page">
+        <div class="container">
+            <h1 class="main-title">
+                Step into the producer’s playground
+            </h1>
+            <div class="main-text">
+                Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.
+            </div>
+            <button class="main-button button">Try free</button>
+            <button class="learn-more-button button" id="learn-more-button">Learn more</button>
+        </div>
+    </section>
+    <div id="others-sections">
+        <section class="sounds">
+            <div class="container">
+                <div class="sounds-info">
+                    <div class="sounds-title">
+                        SOUNDS
+                    </div>
+                    <div class="sounds-text">
+                        A catalog so deep, it’s dangerous.
+                    </div>
+                    <div class="sounds-description">
+                        Expertly created and curated samples in any style imaginable. Start swimming in sound.
+                    </div>
+                    <button class="sounds-button button">Explore Sounds</button>
+                </div>
+                <div class="sounds-image">
+                    <img src="img/sounds.png" alt="Music discs">
+                </div>
+
+            </div>
+        </section>
+        <section class="connected-experience">
+            <div class="container">
+                <div class="connected-experience-image">
+                    <img src="img/connected-experience.png" alt="Music panel">
+                </div>
+                <div class="connected-experience-info">
+                    <div class="connected-experience-title">
+                        Connected Experience
+                    </div>
+                    <div class="connected-experience-text">
+                        A workflow that actually flows.
+                    </div>
+                    <div class="connected-experience-description">
+                        Preview samples in your track’s key and tempo, drag and drop sounds into your DAW, and organize
+                        your
+                        favorite samples, MIDI and presets in one place.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gear">
+            <div class="container">
+                <div class="gear-info">
+                    <div class="gear-title">
+                        GEAR
+                    </div>
+                    <div class="gear-text">
+                        Build a drool-worthy studio, affordably.
+                    </div>
+                    <div class="gear-description">
+                        The industry’s top software, all in one place, on payment plans built to work for you.
+                    </div>
+                    <button class="gear-button button">Explore Gear</button>
+                </div>
+                <div class="gear-image">
+                    <img src="img/gear.png" alt="Gear">
+                </div>
+            </div>
+        </section>
+        <section class="technology">
+            <div class="container">
+                <div class="technology-image">
+                    <img src="img/technology.png" alt="Mobile app">
+                </div>
+                <div class="technology-info">
+                    <div class="technology-title">
+                        Technology
+                    </div>
+                    <div class="technology-text">
+                        Crate dig without the dust.
+                    </div>
+                    <div class="technology-description">
+                        Our intelligent search tools help you discover sounds you would normally have to dig to find.
+                        Tech
+                        breaks the sweat, not you.
+                    </div>
+                    <button class="technology-button button">Discover CoSo</button>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews-title">What creators are saying about Splice</div>
+                <div class="reviewers">
+                    <div class="reviewer">
+                        <div class="reviewer-image">
+                            <img src="img/reviewer1.png" alt="Reviewer">
+                        </div>
+                        <div class="reviewer-text">
+                            I can always find what I’m looking for on Splice, whether it’s the exact sound I want or
+                            just a bit
+                            of inspiration.
+                        </div>
+                        <div class="reviewer-name">
+                            Andrew Huang
+                        </div>
+                    </div>
+                    <div class="reviewer">
+                        <div class="reviewer-image">
+                            <img src="img/reviewer2.png" alt="Reviewer">
+                        </div>
+                        <div class="reviewer-text">
+                            Finally a way to buy plugins that works. By paying a little at a time, producers can get
+                            legit
+                            access to the top VSTs.
+                        </div>
+                        <div class="reviewer-name">
+                            KSHMR
+                        </div>
+                    </div>
+                    <div class="reviewer">
+                        <div class="reviewer-image">
+                            <img src="img/reviewer3.png" alt="Reviewer">
+                        </div>
+                        <div class="reviewer-text">
+                            It’s been fun to dive into Splice’s creator community and explore tools that support my own
+                            creative
+                            process.
+                        </div>
+                        <div class="reviewer-name">
+                            Kesha Lee
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="try-splice">
+            <div class="container">
+                <div class="try-splice-title">
+                    Try Splice today
+                </div>
+                <button class="try-splice-button button">Start now</button>
+            </div>
+        </section>
+        <section class="nav">
+            <div class="container">
+                <div class="nav-block-container">
+                    <div class="nav-block">
+                        <div class="nav-block-title">
+                            Skills
+                        </div>
+                        <div class="nav-block-item">
+                            Features
+                        </div>
+                        <div class="nav-block-item">
+                            Catalog
+                        </div>
+                    </div>
+                    <div class="nav-block">
+                        <div class="nav-block-title">
+                            Studio
+                        </div>
+                        <div class="nav-block-item">
+                            Features
+                        </div>
+                        <div class="nav-block-item">
+                            About Splice Studio
+                        </div>
+                        <div class="nav-block-item">
+                            Managing Your Production Library
+                        </div>
+                        <div class="nav-block-item">
+                            Collaborating with Baewatch
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-block">
+                    <div class="nav-block-title">
+                        Community
+                    </div>
+                    <div class="nav-block-item">
+                        Ableton Live Projects
+                    </div>
+                    <div class="nav-block-item">
+                        FL Studio Projects
+                    </div>
+                    <div class="nav-block-item">
+                        Logic Pro X Projects
+                    </div>
+                    <div class="nav-block-item">
+                        Garageband Projects
+                    </div>
+                    <div class="nav-block-item">
+                        Remix Contests
+                    </div>
+                    <div class="nav-block-item">
+                        Tiesto's Secrets
+                    </div>
+                </div>
+                <div class="nav-block">
+                    <div class="nav-block-title">
+                        Sounds
+                    </div>
+                    <div class="nav-block-item">
+                        Features
+                    </div>
+                    <div class="nav-block-item">
+                        Catalog
+                    </div>
+                    <div class="nav-block-item">
+                        How Jauz Uses Sounds
+                    </div>
+                    <div class="nav-block-item">
+                        deadmau5's Chimaera
+                    </div>
+                    <div class="nav-block-item">
+                        KSHMR Vol. 2
+                    </div>
+                </div>
+                <div class="nav-block">
+                    <div class="nav-block-title">
+                        Plugins
+                    </div>
+                    <div class="nav-block-item">
+                        Top VSTs
+                    </div>
+                    <div class="nav-block-item">
+                        Serum
+                    </div>
+                    <div class="nav-block-item">
+                        Rent to Own
+                    </div>
+                    <div class="nav-block-item">
+                        Free Plugins
+                    </div>
+                    <div class="nav-block-item">
+                        Top Manufacturers
+                    </div>
+                </div>
+                <div class="nav-block">
+                    <div class="nav-block-title">
+                        Beatmaker
+                    </div>
+                    <div class="nav-block-item">
+                        Create Your Own Beat
+                    </div>
+                    <div class="nav-block-item">
+                        Wakapella
+                    </div>
+                    <div class="nav-block-item">
+                        Just Blaze
+                    </div>
+                </div>
+                <div class="nav-block">
+                    <div class="nav-block-title">
+                        Blog
+                    </div>
+                    <div class="nav-block-item">
+                        Latest Posts
+                    </div>
+                    <div class="nav-block-item">
+                        Using Soundtoys Decapitator
+                    </div>
+                    <div class="nav-block-item">
+                        Mastering 101
+                    </div>
+                    <div class="nav-block-item">
+                        Producing Future Beats
+                    </div>
+                    <div class="nav-block-item">
+                        Belonging @ Splice
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-item">
+                    © 2022 Splice.com All Rights Reserved
+                </div>
+                <div class="footer-item">
+                    Terms of Use
+                </div>
+                <div class="footer-item">
+                    Privacy Policy
+                </div>
+                <div class="footer-item">
+                    Jobs
+                </div>
+                <div class="footer-item">
+                    Contact
+                </div>
+                <div class="footer-item">
+                    Help
+                </div>
+                <div class="footer-item">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.1159 0.000488281H0.883064C0.395693 0.000488281 0 0.395391 0 0.883552V15.1164C0 15.6045 0.395693 16 0.883064 16H8.54559V9.80402H6.4607V7.38904H8.54559V5.60815C8.54559 3.54196 9.80722 2.41627 11.6508 2.41627C12.5347 2.41627 13.2926 2.48239 13.5136 2.51111V4.67082L12.2349 4.67135C11.2325 4.67135 11.0391 5.14792 11.0391 5.84683V7.38824H13.4306L13.1179 9.80297H11.0388V15.9992H15.1156C15.6035 15.9992 15.9995 15.6032 15.9995 15.1164V0.883025C15.9992 0.395391 15.6038 0.000488281 15.1159 0.000488281Z"
+                              fill="white"/>
+                    </svg>
+                </div>
+            </div>
+        </footer>
     </div>
+    <script>
+        document.getElementById('learn-more-button').onclick = function () {
+            document.getElementById('others-sections').style.display = 'block';
+            document.getElementsByClassName('main-page')[0].style.height = 'auto'
+        }
+    </script>
+</div>
 
 </body>
 </html>
